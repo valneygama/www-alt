@@ -1,0 +1,57 @@
+Olá! Esta é uma página simples na linguagem Markdown!
+
+Esta página conterá padrões para utilização, leia e então apague todo o conteúdo, esta página será exibida no HTML final. 
+
+
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
+
+--- 
+Formatação:
+
+**Negrito**: adicione dois asteriscos \*\***texto**\*\* ou dois traços-baixos \_\___texto__\_\_ no início e no fim do conteúdo.
+
+*Itálico*: adicione apenas um asterisco *\*texto\** ou um traço-baixo _\_texto\__ no início e no fim do conteúdo.
+
+---
+
+Listas:
+
+Para listas não ordenadas, utilize um asterisco * ou hifen - na frente to item da lista:
+
+* Item 1
+* Item 2
+* Item 3
+
+Para listas ordenadas, utilize o numero seguido de ponto:
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+
+
+---
+Links e Imagens:
+
+http://www.google.com Este endereço automaticamente virará um link
+
+[Google](http://www.google.com) Este endereço será um link com nome google e endereço escondido
+
+![Titulo da Imagem](https://picsum.photos/200/100) Passando o Mouse na Imagem você verá um texto escondido
+
+
+
+---
+Tabela
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
+
