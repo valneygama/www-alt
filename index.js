@@ -7,8 +7,8 @@ var MarkdownIt = require('markdown-it');
 const app = express();
 const md = new MarkdownIt();
 const directoryPath = path.join(__dirname, '.');
-const preDiv = "<div class='html' style='margin:2em auto;max-width:800px;padding:1em;border:solid 1px #ddd;border-radius:3px;'>";
-const posDiv = "</div>";
+const preDiv = "<html><head><title>Tribunal de Contas do Estado do Piauí</title></head><body><div class='html' style='margin:2em auto;max-width:800px;padding:1em;border:solid 1px #ddd;border-radius:3px;'>";
+const posDiv = "</div></body></html>";
 
 app.use(express.static('./'));
 
