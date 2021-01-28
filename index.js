@@ -10,6 +10,8 @@ const directoryPath = path.join(__dirname, '.');
 const preDiv = "<div class='html' style='margin:2em auto;max-width:800px;padding:1em;border:solid 1px #ddd;border-radius:3px;'>";
 const posDiv = "</div>";
 
+app.use(express.static('./'));
+
 app.get("/", function(_, res) {
     fs.readdir(directoryPath, function (err,files) {
         if (err) return;

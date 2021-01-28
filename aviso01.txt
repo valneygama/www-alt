@@ -1,3 +1,5 @@
+![Tribunal de Contas do Estado do Piauí](logo.png)
+
 Olá! Esta é uma página simples na linguagem Markdown!
 
 Esta página conterá padrões para utilização, leia e então apague todo o conteúdo, esta página será exibida no HTML final. 
